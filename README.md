@@ -97,7 +97,7 @@ Indexing a single document with Repository
 
 ```java
         @Autowired
-        private SampleElasticsearchRepository repository;
+        private SimpleElasticsearchRepository repository;
 
         String documentId = "123456";
         SampleEntity sampleEntity = new SampleEntity();
